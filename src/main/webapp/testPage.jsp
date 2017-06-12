@@ -23,7 +23,7 @@
 					type="submit" />
 			</form>
 			<br />
-			<br /> FORM per recuperare lo stato di una milestone (Restituisce TRUE o FALSE):
+			<br /> FORM (Polling Boolean) per recuperare lo stato di una milestone (Restituisce TRUE o FALSE):
 			<form action="ws/Polling" target="_blank" method="get">
 				Codice milestone: <input name="milestone" value="milestone 5" /><br />
 				Tag1: <input name="tag" value="20170523U" /><br /> Tag2: <input
@@ -34,7 +34,7 @@
 			</form>
 			
 			<br />
-			<br /> FORM per recuperare lo stato di una milestone (Albero):
+			<br /> FORM (Polling Tree) per recuperare lo stato di una milestone (Albero):
 			<form action="ws/Polling/testTree" target="_blank" method="get">
 				Codice milestone: <input name="milestone" value="milestone 5" /><br />
 				Tag1: <input name="tag" value="20170523U" /><br /> Tag2: <input
@@ -45,7 +45,7 @@
 			</form>
 			
 			<br />
-			<br /> FORM per recuperare lo stato di una milestone (Foglie):
+			<br /> FORM (Polling Leaf) per recuperare lo stato di una milestone (Foglie):
 			<form action="ws/Polling/testLeaf" target="_blank" method="get">
 				Codice milestone: <input name="milestone" value="milestone 5" /><br />
 				Tag1: <input name="tag" value="20170523U" /><br /> Tag2: <input

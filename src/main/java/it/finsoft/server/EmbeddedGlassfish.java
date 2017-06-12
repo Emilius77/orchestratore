@@ -94,7 +94,6 @@ public class EmbeddedGlassfish {
 
 					// ??? glassfish.dispose();
 					glassfish.stop();
-
 				} catch (GlassFishException e) {
 					e.printStackTrace();
 				}
@@ -102,7 +101,7 @@ public class EmbeddedGlassfish {
 		}
 
 	}
-
+	
 	public static ScatteredArchive getScatteredArchive() throws IOException {
 
 		File webapp = new File("src" + File.separator + "main" + File.separator + "webapp");
